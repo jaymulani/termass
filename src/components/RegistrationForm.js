@@ -22,7 +22,7 @@ const RegistrationForm = ({ handleClose }) => {
 
     console.log(formData);
 
-    const lambdaEndpoint = process.env.REACT_APP_API_ANDPOINT;
+    const lambdaEndpoint = process.env.REACT_APP_API_ENDPOINT;
     const requestOptions = {
       method: 'POST',
       headers: {
